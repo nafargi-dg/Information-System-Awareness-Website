@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merriweather+Sans:wght@300&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+
+<!-- ---------------swiper js--------------- -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+
+
+<script src="https://kit.fontawesome.com/5e2596b2c7.js" crossorigin="anonymous"></script>
+<title>Information System</title>
+</head>
+<body>
+
+  <div id="header">
+   
+    <div class="navbar">
+        
+        <div class="nav1 ">
+            <div class="logo"><img src="images/islogo (1).png" alt=""></div>
+            <ul>
+                <li class="active"><a href="index.html"><i class="fa-solid fa-house" style="font-size: 0.9rem; padding: 0; margin: 0 4px;"></i>Home</a>  </li>
+
+                <li><a href="#"><i class="fa-solid fa-circle-info" style="font-size: 0.9rem; padding: 0; margin: 0 4px;"></i>About</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="about.html">About IS</a></li>
+                            <li><a href="department.html">About Department</a></li>
+                            <li><a href="developer.html">About Developer</a></li>
+                            
+                        </ul>
+                     </div>
+                
+                </li>
+               
+                <li><a href=""><i class="fa-solid fa-bookmark"  style="font-size: 0.9rem; padding: 0; margin: 0 4px;"></i>Courses</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="course.html">About Course</a></li>
+                            <li class="hover-submenu"><a href="course material.html">Course Material</a>
+                    
+                            </li>
+                            <li><a href="referance.html">Referance</a></li>
+                            
+                        </ul>
+                     </div>
+                
+                
+                </li>
+
+                <li><a href=""><i class="fa-solid fa-code" style="font-size: 0.9rem; padding: 0; margin: 0 4px;"></i>Code Hub</a>
+                    <div class="sub-menu">
+                        <ul>
+                          
+                            <li><a href="programminglanguage.html">Programming Languages</a></li>
+                            <li><a href="frameworks.html"> FrameWorks </a></li>
+                            <li><a href="runtimeenvi.html"> Runtime Environmets</a></li>
+                        </ul>
+                     </div>
+                </li>
+                <li><a href="faq.html"><i class="fa-solid fa-question" style="font-size: 0.9rem; padding: 0; margin: 0 4px;"></i>FAQs</a></li>
+                <li><a href="contact.html"><i class="fa-solid fa-id-badge " style="font-size: 0.9rem; padding: 0; margin: 0 4px;"></i>Contact Us</a></li>
+            </ul>
+            
+           
+           
+        </div>
+       
+    </div>
+    <div class="mob-nav">
+    <div class="logo-mobile"><img src="images/islogo (1).png" alt=""></div>
+    <button class="hamburger">
+        <div class="bar"></div>
+    </button>
+  
+</div>
+<nav class="mobile-nav" >
+    <img src="images/islogo (1).png" alt="" class="logo-bar">
+    <a href="index.html">Home</a>
+    <div class="accordianhamburger">
+        <div class="question-bar">
+            <a href="#" >About  <i class="fa-solid fa-angle-down"></i></a>
+        </div>
+        <div  class="answer-bar">
+            <a href="about.html">About IS</a>
+            <a href="department.html">About Department</a>
+            <a href="developer.html">About Developer</a>
+        </div>
+            
+    </div>
+
+    <div class="accordianhamburger">
+        <div class="question-bar">
+            <a href="#" >Code Hub <i class="fa-solid fa-angle-down"></i></a>
+           
+        </div>
+        <div  class="answer-bar">
+            <a href="programminglanguage.html">Programming Languages</a>
+            <a href="frameworks.html">Frameworks</a>
+            <a href="runtimeenvi.html">Runtime Environmets</a>
+        </div>
+            
+    </div>
+
+    <div class="accordianhamburger">
+        <div class="question-bar">
+            <a href="#" >Courses <i class="fa-solid fa-angle-down"></i></a>
+           
+        </div>
+        <div  class="answer-bar">
+            <a href="course.html">About Courses</a>
+            <a href="course material.html">Course Material</a>
+            <a href="referance.html">Referance</a>
+        </div>
+            
+    </div>
+   
+ 
+    
+    <a href="faq.html">FAQs</a>
+    <a href="contact.html">Contact</a>
+</nav>
+</div>
+<!-- ---------------------------------------nav bar------------------------------------------------ -->
+
+<div class="about-run ">
+    <div class="container">
+      <div class=" about-body">
+       
+       <div class="about-is-col1">
+           <h1>Diving into Runtime Components </h1>
+           <h3>Runtime Libraries: The Building Blocks of Functionality</h3>
+           <p>
+            Step into the intricate world of runtime components, where the orchestration of code execution takes center stage. 
+            The Runtime Environment is not a monolithic entity; rather, it consists of various components working harmoniously 
+            to bring your programs to life. Let's dissect these components, from interpreters to Just-In-Time compilers, and understand 
+            their roles in the dynamic landscape of program execution.
+           </p>
+       </div>
+
+       <!-- <div class="about-is-col2">
+           <img src="images/bgc12.png" alt="">
+       </div> -->
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,256L34.3,229.3C68.6,203,137,149,206,144C274.3,139,343,181,411,208C480,235,549,245,617,218.7C685.7,192,754,128,823,128C891.4,128,960,192,1029,218.7C1097.1,245,1166,235,1234,234.7C1302.9,235,1371,245,1406,250.7L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+   </div>
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="yellow" fill-opacity="1" d="M0,128L34.3,112C68.6,96,137,64,206,80C274.3,96,343,160,411,202.7C480,245,549,267,617,245.3C685.7,224,754,160,823,133.3C891.4,107,960,117,1029,144C1097.1,171,1166,213,1234,208C1302.9,203,1371,149,1406,122.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+   <svg class="svg-info" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#141720" fill-opacity="1" d="M0,224L40,202.7C80,181,160,139,240,149.3C320,160,400,224,480,250.7C560,277,640,267,720,234.7C800,203,880,149,960,149.3C1040,149,1120,203,1200,224C1280,245,1360,235,1400,229.3L1440,224L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+
+</di>
+</div>
+
+   <div class="framework">
+     <div class="framework-col1 container">
+        <h1>Performance Unleashed</h1>
+        <p>Fine-Tuning for Speed and Efficiency Across Runtime Stages</p>
+    </div>
+
+    <div class="framework-col2 container">
+        <div class="framework-hero">
+            <div>
+                <p>Real-Time Capabilities and Performance Optimization Techniques</p>
+            </div>
+
+            <div class="fr-hero">
+             
+                <p>Exploring the Framework's Runtime Capabilities and Features</p>
+            </div>
+           
+        </div>
+
+        <div class="framwwork-body">
+
+               <div class="four-body">
+                        <div class="framwwork-body1">
+
+                                        <div class="framwwork-body-inside">
+                                            <img src="images/java-virtual-machine-javaserver-faces-java-annotation-foreach-loop-bik-a8e96f8d81ca2c706beddd4eec9896a7.png" alt="">
+                                            <h3>Java Virtual Machine </h3>
+                                        </div>
+                        
+                                        <div style="border-left: none;" class="iandw">
+                                            <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                            <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                        </div>
+        
+                        </div>
+
+                        <div class="framwwork-body1">
+
+                                    <div class="framwwork-body-inside">
+                                        <img src="images/common language.png" alt="">
+                                        <h3>Common Language Runtime</h3>
+                                    </div>
+                    
+                                    <div style="border-left: none;" class="iandw">
+                                        <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                        <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                    </div>
+
+                       </div>
+
+                       <div class="framwwork-body1">
+
+                                <div class="framwwork-body-inside">
+                                    <img src="images/nodwjjjs.png" alt="">
+                                    <h3>Node Js</h3>
+                                </div>
+                
+                                <div style="border-left: none;" class="iandw">
+                                    <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                    <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                </div>
+
+                       </div>
+
+                        <div class="framwwork-body1">
+
+                                <div class="framwwork-body-inside">
+                                    <img src="images/python.png" alt="">
+                                    <h3>Python Virtual Machine</h3>
+                                </div>
+                
+                                <div style="border-left: none;" class="iandw">
+                                    <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                    <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                </div>
+
+                        </div>
+
+                </div>
+
+                    <!-- -------------------------------------------------------second======================================== -->
+
+                     <div class="four-body">
+                        <div class="framwwork-body1">
+
+                                        <div class="framwwork-body-inside">
+                                            <img src="images/Ruby (MRI) Interpreter.png" alt="">
+                                            <h3>Ruby Interpreter</h3>
+                                        </div>
+                        
+                                        <div style="border-left: none;" class="iandw">
+                                            <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                            <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                        </div>
+        
+                        </div>
+
+                        <div class="framwwork-body1">
+
+                                    <div class="framwwork-body-inside">
+                                        <img src="images/NET_Core_Logo.svg" alt="">
+                                        <h3>.NET Runtime</h3>
+                                    </div>
+                    
+                                    <div style="border-left: none;" class="iandw">
+                                        <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                        <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                    </div>
+
+                       </div>
+
+                       <div class="framwwork-body1">
+
+                                <div class="framwwork-body-inside">
+                                    <img src="images/golangg.png" alt="">
+                                    <h3>Go </h3>
+                                </div>
+                
+                                <div style="border-left: none;" class="iandw">
+                                    <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                    <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                </div>
+
+                       </div>
+
+                        <div class="framwwork-body1">
+
+                                <div class="framwwork-body-inside">
+                                    <img src="images/Erlang_logo.svg.png" alt="" style="background-color: antiquewhite;">
+                                    <h3>Erlang Virtual Machine </h3>
+                                </div>
+                
+                                <div style="border-left: none;" class="iandw">
+                                    <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                    <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                </div>
+
+                        </div>
+
+                </div>
+                    <!-- -------------------------------------------------------third------------------------------------------ -->
+
+
+                    <div class="four-body">
+                        <div class="framwwork-body1">
+
+                                        <div class="framwwork-body-inside">
+                                            <img src="images/icons8-dart-48.png" alt="">
+                                            <h3>Dart VM</h3>
+                                        </div>
+                        
+                                        <div style="border-left: none;" class="iandw">
+                                            <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                            <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                        </div>
+        
+                        </div>
+
+                        <div class="framwwork-body1">
+
+                                    <div class="framwwork-body-inside">
+                                        <img src="images/Lua-Logo.svg" alt="">
+                                        <h3>Lua Interpreter</h3>
+                                    </div>
+                    
+                                    <div style="border-left: none;" class="iandw">
+                                        <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                        <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                    </div>
+
+                       </div>
+
+                       <div class="framwwork-body1">
+
+                                <div class="framwwork-body-inside">
+                                    <img src="images/V8 JavaScript Engine.png" alt="">
+                                    <h3>V8 JavaScript Engine</h3>
+                                </div>
+                
+                                <div style="border-left: none;" class="iandw">
+                                    <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                    <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                </div>
+
+                       </div>
+
+                        <div class="framwwork-body1">
+
+                                <div class="framwwork-body-inside">
+                                    <img src="images/PHP Zend Engine.png" alt="">
+                                    <h3>PHP Zend Engine</h3>
+                                </div>
+                
+                                <div style="border-left: none;" class="iandw">
+                                    <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                    <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                </div>
+
+                        </div>
+
+                </div>
+                    <!-- ------------------------------------------------------------fourth-------------------------------------- -->
+                    <div class="four-body">
+                        <div class="framwwork-body1">
+
+                                        <div class="framwwork-body-inside">
+                                            <img src="images/Perl Interpreter.png" alt="">
+                                            <h3>Perl Interpreter</h3>
+                                        </div>
+                        
+                                        <div style="border-left: none;" class="iandw">
+                                            <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                            <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                        </div>
+        
+                        </div>
+
+                        <div class="framwwork-body1">
+
+                                    <div class="framwwork-body-inside">
+                                        <img src="images/Rust Runtime (libstd.png" alt="">
+                                        <h3>Rust</h3>
+                                    </div>
+                    
+                                    <div style="border-left: none;" class="iandw">
+                                        <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                        <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                    </div>
+
+                       </div>
+
+                       <div class="framwwork-body1">
+
+                                <div class="framwwork-body-inside">
+                                    <img src="images/Mono_Project_Logo.svg" alt="" style="background-color: aqua; border-radius: 10%;">
+                                    <h3>Mono </h3>
+                                </div>
+                
+                                <div style="border-left: none;" class="iandw">
+                                    <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                    <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                </div>
+
+                       </div>
+
+                        <div class="framwwork-body1">
+
+                                <div class="framwwork-body-inside">
+                                    <img src="images/Matlab Runtime.png" alt="">
+                                    <h3>Matlab </h3>
+                                </div>
+                
+                                <div style="border-left: none;" class="iandw">
+                                    <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                    <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                </div>
+
+                        </div>
+
+                </div>
+
+             
+ <!-- ------------------------------------------------------------fifth-------------------------------------- -->
+                    <div class="four-body">
+                        <div class="framwwork-body1">
+
+                                        <div class="framwwork-body-inside">
+                                            <img src="images/Haskell-Logo.svg" alt="">
+                                            <h3>Haskell </h3>
+                                        </div>
+                        
+                                        <div style="border-left: none;" class="iandw">
+                                            <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                            <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                        </div>
+
+                        </div>
+
+                        <div class="framwwork-body1">
+
+                                    <div class="framwwork-body-inside">
+                                        <img src="images/R_logo.svg" alt="">
+                                        <h3>R </h3>
+                                    </div>
+
+                                    <div style="border-left: none;" class="iandw">
+                                        <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                        <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                    </div>
+
+                    </div>
+
+                    <div class="framwwork-body1">
+
+                                <div class="framwwork-body-inside">
+                                    <img src="images/scala-programming-language-type-safety-javascript-others-b839efbd38d70a7fb148ad272fe255c4.png" alt="">
+                                    <h3>Scala </h3>
+                                </div>
+
+                                <div style="border-left: none;" class="iandw">
+                                    <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                    <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                </div>
+
+                    </div>
+
+                        <div class="framwwork-body1">
+
+                                <div class="framwwork-body-inside">
+                                    <img src="images/Android_robot_(2014-2019).svg.png" alt="">
+                                    <h3>Android </h3>
+                                </div>
+
+                                <div style="border-left: none;" class="iandw">
+                                    <div ><i class="fa-solid fa-circle-info"></i>Quickstrat Guide </div>
+                                    <div style="border-left: none;"> <i class="fa-solid fa-arrow-up-right-from-square"></i>Learn More </div>
+                                </div>
+
+                        </div>
+
+                    </div>
+
+            
+
+
+
+
+
+
+        </div>
+
+    </div>
+   </div>
+
+<!-- ---------------------------main js------------------------------------ -->
+
+<script src="main.js"></script>
+
+ 
+ <!-- -------------------------------------------------footer------------------------------------------------- -->
+ <footer class="footer-mobile" >
+    <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#141720" fill-opacity="1" d="M0,96L48,117.3C96,139,192,181,288,170.7C384,160,480,96,576,85.3C672,75,768,117,864,144C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <div class=" footer-container" style="margin: 0 4rem;">
+        <div class="footer footer1">
+            <img src="images/islogo (1).png" alt="">
+    
+        </div>
+
+        <div class="footer footer2">
+            <h4>Quick Links</h4>
+            <ul class="Permalinks">
+                <li><a href="index.html">Home </a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="programminglanguage.html">Code Hub</a></li>
+                <li><a href="faq.html">FAQs</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="footer footer2">
+            <h4>About</h4>
+            <ul class="Permalinks">
+            
+                <li><a href="about.html">About IS</a></li>
+                <li><a href="department.html">About Department</a></li>
+                <li><a href="course.html">About Course</a></li>
+                <li><a href="developer.html">About Developer</a></li>
+
+            </ul>
+
+        </div>
+
+        <div class="footer footer3">
+            <h4>Resource Center</h4>
+            <ul class="Permalinks">
+                <li><a href="course material.html">Course Material </a></li>
+                <li><a href="referance.html">Referance</a></li>
+                <li><a href="programminglanguage.html">Pro Languages</a></li>
+                <li><a href="frameworks.html">Frame Works</a></li>
+                <li><a href="runtimeenvi.html">Runtime Environmets</a></li>
+    
+            </ul>
+        </div>
+
+        <div class="footer footer4">
+            <h4>Social Medais </h4>
+
+            <div class="emails">
+            
+                <p><i class="fa-solid fa-envelope"></i>nafargidamena@gmail.com <br>
+                 <i class="fa-solid fa-phone"></i>+251-996-789-508</p>
+            </div>
+            
+             <div class="footer-icon">
+                <a href="https://www.instagram.com/nafargi/"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://t.me/hamajis"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.twitter.com/nafargi/"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href=" https://wa.me/qr/LIUXGNT6TNRNK1"> <i class="fa-brands fa-square-whatsapp"></i></a>
+               
+             </div>
+        </div>
+    </div>
+    <div class="footer footer44">
+        <h4>Social Medais </h4>
+
+        <div class="emails-phone">
+        
+            <ul>
+                <li><i class="fa-solid fa-envelope"></i>nafargidamena@gmail.com </li>
+                <li> <i class="fa-solid fa-phone"></i>+251-996-789-508</li>
+            </ul>
+              
+        </div>
+        
+         <div class="footer-icon">
+            <a href="https://www.instagram.com/nafargi/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://t.me/hamajis"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://www.twitter.com/nafargi/"><i class="fa-brands fa-square-x-twitter"></i></a>
+            <a href=" https://wa.me/qr/LIUXGNT6TNRNK1"> <i class="fa-brands fa-square-whatsapp"></i></a>
+           
+         </div>
+    </div>
+    <div class="footer-copyright">
+        <small class="copyright1">© 2024 Informstion System  - All rights reserved </small>
+        <small class="copyright2">Designed by <span>Nafargi Damena</span> </small>
+    </div>
+   
+</footer>
+</body>
+</html>

@@ -177,20 +177,15 @@ body{
 
 
 .nav1 ul li:hover .sub-menu ul li{
-    
     width: 200px;
     padding: 2px 0;
-    /* margin-right: -10.3px; */
     border-bottom: 1px solid #3f72ff3d;
     background: transparent;
 }
 .nav1 ul li:hover .sub-menu ul li a{
     text-align: left;
-  
     margin: 10px;
     background-color: transparent;
-    
-
 }
 .nav1 ul li:hover .sub-menu ul li:last-child {
     border-bottom: none;
@@ -259,8 +254,6 @@ body{
     height: 100%;
     background: rgb(0,205,255);
     background: linear-gradient(90deg, rgba(7, 2, 170, 0.681) 0%, rgba(0, 179, 255, 0.275) 100%);
-    
-    /* background-color: rgba(3, 68, 99, 0.507) ; */
 }
 
 .hero-body{
@@ -270,15 +263,11 @@ body{
     
 }
 .hero-title{
-  
-    /* margin-top: 10rem; */
     height: 30vh;
     border-right: 50px solid yellow; 
 }
 .hero-title h1 {
-   
     margin: 12rem 0 0 4rem;
-    
     font-family: 'Poppin';
     font-weight: 800;
     color:yellow;
@@ -288,7 +277,6 @@ body{
 .hero {
     display: flex;
     justify-content: space-between;
-   
     width: 100%; 
     position: relative;
     height:70vh;
@@ -350,11 +338,7 @@ body{
     position: relative;
     overflow: hidden;
 }
-/* .btn:hover{
-    color: #0059ff;
-    font-family: 'Poppin';
-    font-weight: 700;
-} */
+
 .btn::before{
     content: "";
     position: absolute;
@@ -435,7 +419,6 @@ body{
     font-size: 20px;
     margin-bottom: 0rem ;
     border-right: 50px solid yellow ;
-    /* border-top: 10px solid yellow ; */
     line-height: 1. ;
 }
 
@@ -575,12 +558,8 @@ body{
 
 
 .main-card {
-
     margin-top: 3rem;
-    
 }
-
-
 .card-container{
     margin: 0 0 8rem 0;
   display: flex;
@@ -672,7 +651,6 @@ body{
 	}
 }
 .testimonial-container{
-   
     position: relative;
     margin: 4rem 3rem;
     overflow: hidden;
@@ -685,8 +663,6 @@ body{
     color: #1f375b;
     font-family: 'Poppin'; 
     font-weight: 700;
-    
-    
 }
 .testimonial{
     margin-bottom: 1rem;
@@ -739,7 +715,6 @@ body{
 }
 
 .testimonial-info{
-    
  text-align: center;
  font-family: 'Poppin'; 
  font-weight: 400;
@@ -752,7 +727,6 @@ body{
 }
 .testimonial-body{
     border-bottom: 2px solid rgb(9, 140, 255);
-  
     background: #ffffff;
     font-family: 'Poppin'; 
     font-weight: 300;
@@ -1008,9 +982,7 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 4px solid  rgb(0, 174, 255) ;
- 
-    
+    border-bottom: 4px solid  rgb(0, 174, 255) ; 
 }
 .college-img::before{
     content: "";
@@ -1095,7 +1067,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Poppin';
-    /* align-content: space-between; */
 }
 .largcard-text{
     display: flex;
@@ -1108,7 +1079,6 @@ body{
     height: 35%;
     width: 35%;
     transition: 0.9s ease;
-    
 }
 
 .small-cards-inside1 .small-card1:hover .largcard-text img
@@ -1120,9 +1090,6 @@ body{
     background-image: linear-gradient(to left top, #00ffff, #63feeed7, #3ff4a1, #00e3cd, #00cddf);
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
-
-
-
 
 .ins-la{
     width: 25rem;
@@ -1173,7 +1140,8 @@ body{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .larg-card{
-    background-image: linear-gradient(to right top, #0092ff, #00aeff, #00c7ff, #02deff, #6af3ff);    border-radius: 1rem;
+    background-image: linear-gradient(to right top, #0092ff, #00aeff, #00c7ff, #02deff, #6af3ff);   
+    border-radius: 1rem;
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
@@ -1255,11 +1223,8 @@ body{
 .icon-learn:hover{
     background: rgb(0,205,255);
     background: linear-gradient(45deg, rgba(8, 2, 170, 0.574) 0%, rgb(0, 183, 255) 100%);
-    /* background-color: #ccdef2; */
     border-bottom: 1px solid #79b5ff;
     padding-left: 15px;
-   
-    
 }
 .icon-learn h2{
     text-wrap: nowrap;
@@ -1344,9 +1309,7 @@ body{
 { 
      font-size: 2rem;
      margin-right: 2rem;
-     padding-bottom: 1rem;
-     
-    
+     padding-bottom: 1rem; 
 }
 .cousre-body1 .fa-solid,.cousre-body1  .fa-brands{
     color: #fff700;
@@ -1520,9 +1483,6 @@ body{
    color: #ffffff;
 }
 
-
-
-
 /* ===============================================choose=================================== */
 
 .choose{
@@ -1602,9 +1562,7 @@ body{
     width: 70px;
     min-height: 70px;
 }
-/* .fa-lightbulb{
-    width: 20px;
-} */
+
 /* =================================job section======================= */
 
 .job-header {
@@ -1731,8 +1689,6 @@ body{
     color: #fff;
     background:  #0c072c;
     background: linear-gradient(90deg, rgb(10, 2, 35) 20%, rgba(0, 35, 114, 0.408) 100%);
-
-    /* background-color: #0c072c; */
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;   overflow: hidden;
 }
 .university-img1{
@@ -2044,9 +2000,9 @@ body{
     text-align: center;
     padding: 1rem;
     background-color: #fff;
-    writing-mode: vertical-lr; /* lr stands for left-to-right, change as needed */
+    writing-mode: vertical-lr; 
     text-orientation: upright;
-    white-space: nowrap; /* optional, to prevent text from wrapping */
+    white-space: nowrap; 
     font-family: 'Poppin';
     margin-left: 3rem;
     color: #1f375b;
@@ -2083,9 +2039,9 @@ body{
    background-color: #fff;
    border-radius: 5px;
    padding: 1rem;
-   writing-mode: vertical-lr; /* lr stands for left-to-right, change as needed */
+   writing-mode: vertical-lr;
    text-orientation: upright;
-   white-space: nowrap; /* optional, to prevent text from wrapping */
+   white-space: nowrap; 
    font-family: 'Poppin';
    color: #1f375b;
  }
@@ -2126,9 +2082,6 @@ body{
 
 
 /* =========================================begging of programming language========================== */
-/* =========================================begging of programming language========================== */
-/* =========================================begging of programming language========================== */
-
 
 .about-programming-heros-image {
     
@@ -2243,12 +2196,9 @@ body{
     font-family: 'Poppin';
     margin-top: -5rem;
     width: 100%;
-    /* height: 170vh; */
     color: #fff;
-     background: #141720; 
-    /* background-image: linear-gradient(to bottom, #009dff, #00baff, #4bd3ff, #88eafc, #bffffe); */
-
-    
+    background: #141720; 
+   
 }
 .four-body{
     color: #536780;
@@ -2445,8 +2395,6 @@ body{
     text-wrap: nowrap;
 }
 
-
-
 .paginationReference {
     display: flex;
     justify-content: center;
@@ -2479,7 +2427,6 @@ body{
   
   
 
-/* ====================================================frmae work================================================= */
 
 /* ==================================================begging of about cousrse page=============================== */
 
@@ -2628,15 +2575,13 @@ body{
 }
 
 .common-course{
-    /* width: 60%; */
+
     color: #fff;
     background: rgb(0,205,255);
     background: linear-gradient(45deg, rgba(7, 2, 170, 0.681) 0%, rgba(0, 179, 255, 0.91) 100%);
     padding: 2rem;
     text-transform: capitalize;
     line-height: 1.5;
-    /* border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem; */
     border-radius: 1rem;
 }
 
@@ -2648,8 +2593,6 @@ body{
     padding: 2rem;
     text-transform: capitalize;
     line-height: 1.5;
-    /* border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem; */
     border-radius: 1rem;
     text-wrap: nowrap;
     font-weight: 400;
@@ -2689,7 +2632,6 @@ body{
   margin-right: 5%;
   
 }
-
  /* Dot Elastic */
 .snippet {
    
@@ -3089,140 +3031,6 @@ section h1 span{
 /* =================================================contact==================================================== */
 /* =================================================contact==================================================== */
 
-/*  
-
-.contact{
-    width: 100%;
-     height: 120vh; 
-    color: #fff;
-    background-image: linear-gradient(to bottom, #0066ff, #008dff, #00abff, #00c2ed, #70d6df);
-    font-family: 'Poppin';
-    font-weight: 400;
-}
-.contact-body h1{
-    margin-top: 8rem;
-    text-align: center;
-}
-.contact-body h1{
-    margin-top: 8rem;
-    text-align: center;
-}
-.dicontact{
-    margin-top: 6rem;
-    display: flex;
-    justify-content: space-around;
-    
-}
-.dicontact img{
-    width: 30rem;
-    
-}
-.row-contact{
-    
-    padding: 2rem;
-    border-radius: 1rem;
-    /* border-top-right-radius: 1rem;
-    border-bottom-right-radius: 1rem; *
-    margin-top: 3rem;
-    display: flex;
-    background-color: white;
-}
-.contact-left{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    position: relative;
-    width: 90%;
-    height: 60vh;
-    border-radius: 1rem;
-    background-image: url(images/glad-ethnic-woman-with-crisp-hair-grins-cheerfully-while-talks-via-smartphone-raises-palm-dressed-fashionable-yellow-jacket.jpg) ;
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-   
-  
-}
-.contact-left::before{
-    content: "";
-    position: absolute;
-    border-radius: 1rem;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgb(0,205,255);
-    background: linear-gradient(90deg, rgba(8, 2, 170, 0.4) 0%, rgba(0, 179, 255, 0.186) 100%);
-}
-form input{
-    border-radius: 2rem;
-}
-form textarea{
-    border-radius: 0.5rem;
-}
-form input, form textarea{
- 
-    font-family: 'Poppin';
-    text-transform: capitalize;
-    width: 90%;
-   
-    outline: none;
-    border: 2px solid #0077ff;
-    background: rgb(255, 255, 255);
-    align-items: center;
-    padding: 15px;
-    margin: 15px 0;
-    color: #1f375b;
-    font-size: 18px;
-    
-  
-}
-form .btn-contact{
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 8px;
-    cursor: pointer;
-
-}
-
-.contact-right button {
-    display: block;
-    margin: 50px 0 0 110px;
-    width: fit-content;
-  
-    padding: 14px 50px;
-    border-radius: 2rem;
-    text-decoration: none;
-    color: #ffffff;
-    border:solid ;
-    background: rgb(0,205,255);
-    background: linear-gradient(45deg, rgba(7, 2, 170, 0.681) 0%, rgba(0, 179, 255, 0.91) 100%);
-    border-width: 0px;
-   
-    transition: 0.8s ease;
-}
-.contact-right button:hover{
-    background: linear-gradient(90deg, rgb(253, 224, 1) 0%, rgb(255, 242, 0) 100%);
-    color: #1f375b;
-    font-weight: 500;
-  
-}
-
-#msg {
-    font-family: 'Poppin';
-    font-weight: 600;
-    color: #1f375b;
-    margin: 1rem;
-    padding-top: -30px;
-    display: block;
-
-}
-
-
-   */
-
-   /* .contact-footer{
-    margin-right: 12rem;
-} */
 .container1{
    
   max-width: 1100px;
@@ -3529,9 +3337,6 @@ form .form-row .textarea{
 
 footer{
     background-image: linear-gradient(to top, #009dff, #00b9ff, #00d2ff, #00e9ff, #00fffd);
-    
-    /* background: rgb(0,205,255);
-    background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(244, 252, 255) 100%); */
     padding-top: 0rem ;
     font-size: 1.3rem;
 }
@@ -3640,7 +3445,7 @@ footer{
 
 /* ---------------------------------------------------------css for small screens----------------------------------------- */
 
-  /* Media query for screens 900 pixels wide or less */
+  /* Media query for screens 500 pixels wide or less */
 
   .hamburger {
 
@@ -3679,9 +3484,6 @@ footer{
 .hamburger.is-active .bar {
     opacity: 0;
 }
-/* .accordianhamburger{
-    
-} */
 
 .accordianhamburger .question-bar a {
    
